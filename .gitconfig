@@ -76,6 +76,12 @@
 		fi \
 	}; f"
 
+	# My core
+	st = status
+	br = branch
+	rb = rebase
+	co = checkout
+
 [apply]
 
 	# Detect whitespace errors when applying a patch
@@ -140,6 +146,9 @@
 	# Use `hexdump` to diff binary files
 	textconv = hexdump -v -C
 
+[github]
+	user = serv
+
 [help]
 
 	# Automatically correct and execute mistyped commands
@@ -158,6 +167,10 @@
 	default = matching
 	# Make `git push` push relevant annotated tags when pushing branches out.
 	followTags = true
+
+[user]
+	name = Jason Kim
+	email = iamjsonkim@gmail.com
 
 # URL shorthands
 

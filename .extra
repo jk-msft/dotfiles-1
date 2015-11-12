@@ -1,0 +1,4 @@
+# rbenv
+# https://github.com/sstephenson/rbenv#uninstalling-rbenv
+
+eval "$(rbenv init -)"
