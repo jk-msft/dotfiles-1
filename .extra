@@ -4,3 +4,7 @@ eval "$(rbenv init -)"
 
 # golang
 export GOPATH=$HOME/projects/golang
+
+# fast git commands
+alias gs='git status'
+alias gd='git diff'
