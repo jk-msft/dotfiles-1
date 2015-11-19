@@ -1,5 +1,6 @@
 # rbenv
 # https://github.com/sstephenson/rbenv#uninstalling-rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
 # golang
