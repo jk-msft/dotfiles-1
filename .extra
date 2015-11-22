@@ -9,3 +9,6 @@ export GOPATH=$HOME/projects/golang
 # fast git commands
 alias gs='git status'
 alias gd='git diff'
+
+# node
+export NODE_ENV=development
