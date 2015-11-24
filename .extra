@@ -1,14 +1,40 @@
+###
+#
 # rbenv
+#
+###
+
 # https://github.com/sstephenson/rbenv#uninstalling-rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
+###
+#
 # golang
+#
+###
+
 export GOPATH=$HOME/projects/golang
 
-# fast git commands
+###
+#
+# git
+#
+###
+
+# Fast git commands
 alias gs='git status'
 alias gd='git diff'
 
+###
+#
 # node
+#
+###
+
+# Set node environment variable
 export NODE_ENV=development
+
+# Aliases for node
+alias mocha='node_modules/mocha/bin/mocha'
+alias gulp='node_modules/mocha/bin/gulp'
