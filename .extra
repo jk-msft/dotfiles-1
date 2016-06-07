@@ -38,3 +38,13 @@ export NODE_ENV=development
 # Aliases for node
 alias mocha='node_modules/mocha/bin/mocha'
 alias gulp='node_modules/gulp/bin/gulp.js'
+
+###
+#
+# ssh
+#
+###
+
+# add ssh-agents
+ssh-add ~/.ssh/gitlab &> /dev/null
+ssh-add ~/.ssh/id_dsa &> /dev/null
