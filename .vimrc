@@ -106,3 +106,6 @@ if has("autocmd")
 	" Treat .md files as Markdown
 	autocmd BufNewFile,BufRead *.md setlocal filetype=markdown
 endif
+
+"remap jj to be an escape character 
+imap jj <esc>
