@@ -26,6 +26,12 @@ export GOPATH=$HOME/projects/golang
 alias gs='git status'
 alias gd='git diff'
 
+# Enable autocompletion on git commands and branch names
+# http://code-worrier.com/blog/autocomplete-git/
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
+
 ###
 #
 # node
