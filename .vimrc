@@ -7,6 +7,9 @@ call plug#begin('~/.vim/plugged')
 " Code syntax highlighting
 Plug 'https://github.com/sheerun/vim-polyglot'
 
+" Quote and parenthese pairing
+Plug 'https://github.com/jiangmiao/auto-pairs.git'
+
 call plug#end()
 
 """
