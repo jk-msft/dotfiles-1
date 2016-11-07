@@ -10,6 +10,9 @@ Plug 'https://github.com/sheerun/vim-polyglot'
 " Quote and parenthese pairing
 Plug 'https://github.com/jiangmiao/auto-pairs.git'
 
+" Use NERTTree instead of default dir viewer
+Plug 'https://github.com/scrooloose/nerdtree.git'
+
 call plug#end()
 
 """
@@ -131,3 +134,7 @@ imap jj <esc>
 " automatically strip trailing spaces on save in Vi and Vim
 " http://unix.stackexchange.com/questions/75430/how-to-automatically-strip-trailing-spaces-on-save-in-vi-and-vim
 autocmd BufWritePre * :%s/\s\+$//e
+
+" NERDTree show hidden dotfiles
+" http://stackoverflow.com/a/5057406/536890
+let NERDTreeShowHidden=1
