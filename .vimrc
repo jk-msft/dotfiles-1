@@ -125,5 +125,9 @@ if has("autocmd")
 	autocmd BufNewFile,BufRead *.md setlocal filetype=markdown
 endif
 
-"remap jj to be an escape character 
+" remap jj to be an escape character
 imap jj <esc>
+
+" automatically strip trailing spaces on save in Vi and Vim
+" http://unix.stackexchange.com/questions/75430/how-to-automatically-strip-trailing-spaces-on-save-in-vi-and-vim
+autocmd BufWritePre * :%s/\s\+$//e
