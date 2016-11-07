@@ -1,3 +1,18 @@
+"""
+" Start of vim-plug
+"""
+
+call plug#begin('~/.vim/plugged')
+
+" Code syntax highlighting
+Plug 'https://github.com/sheerun/vim-polyglot'
+
+call plug#end()
+
+"""
+" End of vim-log
+"""
+
 " Use the Solarized Dark theme
 set background=dark
 colorscheme solarized

@@ -26,6 +26,11 @@ Alternatively, to update while avoiding the confirmation prompt:
 set -- -f; source bootstrap.sh
 ```
 
+### Using Vim-Plug
+
+[Vim-Plug](https://github.com/junegunn/vim-plug) is a vim package manager.
+After using the bootstrap script, you need to start vim, then run `:PlugInstall`.
+
 ### Git-free install
 
 To install these dotfiles without Git:
