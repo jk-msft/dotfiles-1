@@ -5,10 +5,10 @@
 call plug#begin('~/.vim/plugged')
 
 " Code syntax highlighting
-Plug 'https://github.com/sheerun/vim-polyglot'
+" Plug 'https://github.com/sheerun/vim-polyglot'
 
 " Quote and parenthese pairing
-Plug 'https://github.com/jiangmiao/auto-pairs.git'
+" Plug 'https://github.com/jiangmiao/auto-pairs.git'
 
 " Use NERTTree instead of default dir viewer
 Plug 'https://github.com/scrooloose/nerdtree.git'
