@@ -13,6 +13,9 @@ call plug#begin('~/.vim/plugged')
 " Use NERTTree instead of default dir viewer
 Plug 'https://github.com/scrooloose/nerdtree.git'
 
+" Mustache and handlebars syntax and other related features
+Plug 'https://github.com/mustache/vim-mustache-handlebars.git'
+
 call plug#end()
 
 """
