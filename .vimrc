@@ -16,16 +16,19 @@ Plug 'https://github.com/scrooloose/nerdtree.git'
 " Mustache and handlebars syntax and other related features
 Plug 'https://github.com/mustache/vim-mustache-handlebars.git'
 
+" Use Solarized theme
+Plug 'https://github.com/altercation/vim-colors-solarized.git'
+
 call plug#end()
 
 """
 " End of vim-log
 """
 
-" Use the Solarized Dark theme
+" Enable Solarized
+syntax enable
 set background=dark
 colorscheme solarized
-let g:solarized_termtrans=1
 
 " Make Vim more useful
 set nocompatible
@@ -66,8 +69,6 @@ set exrc
 set secure
 " Enable line numbers
 set number
-" Enable syntax highlighting
-syntax on
 " Highlight current line
 set cursorline
 " Make tabs as wide as two spaces
