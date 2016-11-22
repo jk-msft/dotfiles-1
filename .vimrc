@@ -109,6 +109,8 @@ if exists("&relativenumber")
 endif
 " Start scrolling three lines before the horizontal window border
 set scrolloff=3
+" 80 column layout
+set colorcolumn=80
 
 " Strip trailing whitespace (,ss)
 function! StripWhitespace()
