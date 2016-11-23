@@ -19,6 +19,9 @@ Plug 'https://github.com/mustache/vim-mustache-handlebars.git'
 " Use Solarized theme
 Plug 'https://github.com/altercation/vim-colors-solarized.git'
 
+" Syntax highlighting for Vue.js
+Plug 'https://github.com/posva/vim-vue.git'
+
 call plug#end()
 
 """
