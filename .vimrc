@@ -5,7 +5,7 @@
 call plug#begin('~/.vim/plugged')
 
 " Code syntax highlighting
-" Plug 'https://github.com/sheerun/vim-polyglot'
+Plug 'https://github.com/sheerun/vim-polyglot'
 
 " Quote and parenthese pairing
 " Plug 'https://github.com/jiangmiao/auto-pairs.git'
@@ -14,13 +14,13 @@ call plug#begin('~/.vim/plugged')
 Plug 'https://github.com/scrooloose/nerdtree.git'
 
 " Mustache and handlebars syntax and other related features
-Plug 'https://github.com/mustache/vim-mustache-handlebars.git'
+" Plug 'https://github.com/mustache/vim-mustache-handlebars.git'
 
 " Use Solarized theme
 Plug 'https://github.com/altercation/vim-colors-solarized.git'
 
 " Syntax highlighting for Vue.js
-Plug 'https://github.com/posva/vim-vue.git'
+" Plug 'https://github.com/posva/vim-vue.git'
 
 call plug#end()
 
@@ -75,7 +75,7 @@ set number
 " Highlight current line
 set cursorline
 " Make tabs as wide as two spaces
-set tabstop=2
+" set tabstop=2
 " Expand TABs to spaces
 set expandtab
 " Show “invisible” characters
@@ -147,3 +147,8 @@ autocmd BufWritePre * :%s/\s\+$//e
 " NERDTree show hidden dotfiles
 " http://stackoverflow.com/a/5057406/536890
 let NERDTreeShowHidden=1
+
+" For vim-javascript
+" https://github.com/pangloss/vim-javascript/pull/199
+au BufNewFile,BufRead *.es6 setf javascript
+
