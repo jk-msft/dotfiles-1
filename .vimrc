@@ -22,6 +22,9 @@ Plug 'https://github.com/altercation/vim-colors-solarized.git'
 " Syntax highlighting for Vue.js
 " Plug 'https://github.com/posva/vim-vue.git'
 
+" Full path fuzzy file, buffer, mru, tag, ... finder for Vim.
+Plug 'https://github.com/ctrlpvim/ctrlp.vim'
+
 call plug#end()
 
 """
