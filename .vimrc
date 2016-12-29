@@ -28,7 +28,7 @@ Plug 'https://github.com/ctrlpvim/ctrlp.vim'
 call plug#end()
 
 """
-" End of vim-log
+" End of vim-plug
 """
 
 " Enable Solarized
