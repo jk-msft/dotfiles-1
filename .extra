@@ -56,3 +56,12 @@ ssh-add ~/.ssh/gitlab &> /dev/null
 ssh-add ~/.ssh/id_dsa &> /dev/null
 ssh-add ~/.ssh/github &> /dev/null
 
+###
+#
+# java environments
+#
+###
+
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
+
