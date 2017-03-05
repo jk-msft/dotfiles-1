@@ -118,6 +118,8 @@ endif
 set scrolloff=3
 " 80 column layout
 set colorcolumn=80
+" auto refresh
+set autoread
 
 " Strip trailing whitespace (,ss)
 function! StripWhitespace()
