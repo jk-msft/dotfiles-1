@@ -75,4 +75,3 @@ ssh-add ~/.ssh/github &> /dev/null
 
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
-

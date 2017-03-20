@@ -158,3 +158,11 @@ let NERDTreeShowHidden=1
 " https://github.com/pangloss/vim-javascript/pull/199
 au BufNewFile,BufRead *.es6 setf javascript
 
+" For ctrlp
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
+set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe  " Windows
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\v[\/](bower_components|node_modules|target|dist)|(\.(swp|ico|git|svn))$',
+  \ 'file': '\v\.(exe|so|dll)$',
+  \ 'link': 'some_bad_symbolic_links',
+  \ }
