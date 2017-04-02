@@ -13,6 +13,9 @@ Plug 'https://github.com/sheerun/vim-polyglot'
 " Use NERTTree instead of default dir viewer
 Plug 'https://github.com/scrooloose/nerdtree.git'
 
+" NERDTree always open
+Plug 'https://github.com/jistr/vim-nerdtree-tabs.git'
+
 " Mustache and handlebars syntax and other related features
 " Plug 'https://github.com/mustache/vim-mustache-handlebars.git'
 
@@ -153,6 +156,7 @@ autocmd BufWritePre * :%s/\s\+$//e
 " NERDTree show hidden dotfiles
 " http://stackoverflow.com/a/5057406/536890
 let NERDTreeShowHidden=1
+let g:nerdtree_tabs_open_on_console_startup=1
 
 " For vim-javascript
 " https://github.com/pangloss/vim-javascript/pull/199
