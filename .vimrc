@@ -61,6 +61,7 @@ let mapleader=","
 set binary
 set noeol
 " Centralize backups, swapfiles and undo history
+set backupcopy=yes
 set backupdir=~/.vim/backups
 set directory=~/.vim/swaps
 if exists("&undodir")
@@ -170,3 +171,10 @@ let g:ctrlp_custom_ignore = {
   \ 'file': '\v\.(exe|so|dll)$',
   \ 'link': 'some_bad_symbolic_links',
   \ }
+
+" Paste mode toggle
+" http://stackoverflow.com/a/2514520/536890
+set pastetoggle=<F3>
+
+
+
