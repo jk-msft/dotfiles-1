@@ -123,6 +123,8 @@ set scrolloff=3
 set colorcolumn=80
 " auto refresh
 set autoread
+" toggle paste mode
+set pastetoggle=<F2>
 
 " Strip trailing whitespace (,ss)
 function! StripWhitespace()
