@@ -78,3 +78,14 @@ if [ -x "$(command -v jenv)" ]; then
   eval "$(jenv init -)"
 fi
 
+###
+#
+# Ubuntu
+#
+###
+
+if [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
+  alias open=nautilus
+fi
+
+
