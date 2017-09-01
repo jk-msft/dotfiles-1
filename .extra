@@ -84,7 +84,9 @@ fi
 #
 ###
 
-if [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
+if [ "$(uname)" == "Darwin" ]; then
+  :
+elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
   alias open=nautilus
 fi
 
