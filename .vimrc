@@ -28,6 +28,9 @@ Plug 'https://github.com/posva/vim-vue.git'
 " Full path fuzzy file, buffer, mru, tag, ... finder for Vim.
 Plug 'https://github.com/ctrlpvim/ctrlp.vim'
 
+" adds Go language support for Vim
+Plug 'https://github.com/fatih/vim-go'
+
 call plug#end()
 
 """
