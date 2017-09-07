@@ -20,6 +20,7 @@ if [ "$(uname)" == "Darwin" ]; then
   export GOPATH=$HOME/projects/golang
 elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
   export PATH=$PATH:/usr/local/go/bin
+  export GOPATH=$HOME/projects/golang/src
 fi
 
 
