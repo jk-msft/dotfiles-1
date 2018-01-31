@@ -14,8 +14,6 @@ eval "$(rbenv init -)"
 #
 ###
 
-
-
 if [ "$(uname)" == "Darwin" ]; then
   :
 elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
@@ -56,7 +54,8 @@ alias mocha='node_modules/mocha/bin/mocha'
 alias gulp='node_modules/gulp/bin/gulp.js'
 
 # Use NVM
-export NVM_DIR="/home/jason/.nvm"
+
+export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
 ###
