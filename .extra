@@ -10,7 +10,7 @@ eval "$(rbenv init -)"
 
 ###
 #
-# python 
+# python
 #
 ###
 
@@ -85,7 +85,8 @@ ssh-add ~/.ssh/github &> /dev/null
 #
 ###
 
-if [ -x "$(command -v jenv)" ]; then
+JENV=~/.jenv
+if [ -d "$JENV" ]; then
   export PATH="$HOME/.jenv/bin:$PATH"
   eval "$(jenv init -)"
 fi
