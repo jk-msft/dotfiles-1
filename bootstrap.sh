@@ -25,3 +25,5 @@ else
 	fi;
 fi;
 unset doIt;
+
+./after_bootstrap.bash
