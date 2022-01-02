@@ -66,6 +66,10 @@
 	# Show the user email for the current repository.
 	whoami = config user.email
 
+	co = "checkout"
+
+	br = "branch"
+
 [apply]
 
 	# Detect whitespace errors when applying a patch.
