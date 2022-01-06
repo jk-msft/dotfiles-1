@@ -103,14 +103,6 @@ elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
   alias open=nautilus
 fi
 
-###
-#
-# yarn
-#
-###
-
-export PATH="$PATH:$(yarn global bin)"
-
 # Enpass
 # https://discussion.enpass.io/index.php?/topic/26668-the-enpass-app-overflows-beyond-the-viewable-area/&tab=comments#comment-73359
 
