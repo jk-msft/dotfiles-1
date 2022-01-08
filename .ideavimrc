@@ -1,0 +1,4 @@
+# Set jj as esc key
+# https://stackoverflow.com/questions/25560616/intellij-ideavim-how-to-set-key-map-for-esc
+imap jj <Esc>
+set timeoutlen=1000
