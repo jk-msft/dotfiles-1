@@ -144,7 +144,7 @@
 	textconv = hexdump -v -C
 
 [github]
-	user = serv
+	user = jk-msft
 
 [help]
 
@@ -165,7 +165,7 @@
 
 [user]
 	name = Jason Kim
-	email = iamjsonkim@gmail.com
+	email = kimjason@microsoft.com
 
 # URL shorthands
 
