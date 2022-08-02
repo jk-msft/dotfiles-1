@@ -114,3 +114,7 @@ fi
 export "QT_SCREEN_SCALE_FACTORS=1.5.1.5"
 export "QT_SCREEN_SCALE_FACTORS=2.0,2.0"
 
+# Microsoft Torus Client
+alias TorusClient='export DYLD_FALLBACK_LIBRARY_PATH=`"/Library/Scripts/Torus/Mac/lib:$homedir/lib:/usr/local/lib:/usr/lib:$DYLD_FALLBACK_LIBRARY_PATH`";/usr/local/bin/pwsh -NoLogo -NoExit -File /Library/Scripts/Torus/TorusClient.ps1'
+alias TorusClientSudo='export DYLD_FALLBACK_LIBRARY_PATH=`"/Library/Scripts/Torus/Mac/lib:$homedir/lib:/usr/local/lib:/usr/lib:$DYLD_FALLBACK_LIBRARY_PATH`";sudo /usr/local/bin/pwsh -NoLogo -NoExit -File /Library/Scripts/Torus/TorusClient.ps1'
+alias torus='export DYLD_FALLBACK_LIBRARY_PATH=`"/Library/Scripts/Torus/Mac/lib:$homedir/lib:/usr/local/lib:/usr/lib:$DYLD_FALLBACK_LIBRARY_PATH`";/usr/local/bin/pwsh -NoLogo -NoExit -File /Library/Scripts/Torus/TorusClient.ps1'
